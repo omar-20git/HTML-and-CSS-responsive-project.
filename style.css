@@ -1,0 +1,603 @@
+body {
+    margin: 0px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .header{
+    background-color: greenyellow ;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-size: large;
+  }
+
+ .image-and-word p{
+  color: blueviolet;
+  font-size: x-large;
+  margin-left: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+  
+  .image-and-word:hover{
+    background-color: whitesmoke ;
+    border-radius: 30px;
+  }
+
+  .header-links a {
+    color: blueviolet;
+    padding: 0px  10px;
+    text-decoration: none;
+  }
+
+  .header-links a:hover {
+    color: black;
+    background-color: rgb(131, 74, 184);
+    border-radius: 20px;
+    padding: 10px 20px;
+    }
+  
+   .header-links button {
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+   }
+
+   .header-links button:hover{
+    color: green;
+    background-color: white;
+   }
+
+   .landing-page{
+    background-color: greenyellow ;
+    justify-content: center;
+    padding: 100px 25px ;
+    align-items: center;
+    border-radius: 0px 0px 95px 95px;
+    height: 25rem;
+   }
+
+   .Best-and-picture{
+    display: flex; 
+    align-items: center;
+   }
+
+
+   .landing-page-left-p{
+    width: 480px;
+   }
+
+   .landing-page-search{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 0px 0px 0px 15px ;
+    border: none;
+   }
+    .landing-page-search:hover{
+      background-color: white;
+      color: green;
+    }
+
+    .landing-page-search input{
+      border-radius: 10px;
+      padding: 15px;
+      border: 0px;
+      outline: 0px;
+      height: 30px;
+      padding: 0px 7px;
+      padding-right: 20px;
+      background-color: #eeeeee;
+    }
+     .landing-page-search button{
+      color: white;
+       background-color: orange; 
+       border: 0px;
+       border-radius: 18px;
+       padding: 10px 10px  10px 10px ;
+       height: 55px;
+       width: 100px;
+     }
+       
+   .landing-page-search button:hover{
+    background-color: white;
+    color: green;
+   }
+
+   .landing-page-image-red{
+    
+   }
+   .landing-page-between{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .landing-page-image-red-2{
+    display: flex;
+    align-items: center;
+   }
+   
+   .Trending-container{
+    padding: 25px;
+    margin-top: 170px;
+   }
+   
+   .Trending-container span{
+     color: orange;
+     text-transform: uppercase;
+     font-size:larger ;
+   }
+
+   .trending-header{
+     display: flex;
+    justify-content: space-between;
+   }
+
+   .trending-header h1{
+    margin-top: 0px;
+   }
+    
+
+   .trending-header button{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    height: 50px ;
+    width: 80px;
+   }
+
+    .trending-header button:hover {
+    color: green;
+    background-color: white;
+   }
+
+    .trending-cards{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .card {
+     width: 250px;
+     border-radius: 30px;
+    }
+    
+    .card .thumb{
+      border-radius: 30px 30px 0 0 ;
+    }
+
+    .card-info{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: gray ;
+      border-radius: 0 0 25px 25px;
+      padding: 5px 5px;
+    }
+
+    .card-info img {
+      width: 35px;
+    }
+
+    .card-info img:hover{
+     padding: 19px;
+     background-color: #eeeeee;
+     border-radius: 20px;
+    }
+
+
+
+
+    .MOST-PLAYED-SECTION{
+     padding: 25px 150px;
+     background-color: #eeeeee;
+     border-radius: 100px;
+     margin-top: 300px;
+    }
+
+    .MOST-PLAYED-SECTION span{
+      color: orange;
+      text-transform: uppercase;
+      font-size:larger ;
+    }
+
+    .most-played{
+      display: flex;
+      padding-top: 0px; 
+      justify-content: space-between;
+    }
+
+    .most-played h1{
+      margin-top: 0px;
+     }
+
+     .most-played button{
+      background-color: orange;
+      color: white;
+      border-radius: 20px;
+      border: none;
+      align-items: center;
+      height: 50px ;
+      width: 80px;
+     }
+     .most-played button:hover{
+      background-color: white;
+      color: green;
+    }
+
+
+     .MOST-PLAYED-SECTION-images{
+      display: flex;
+      justify-content: space-between;
+     }
+
+
+     .card-2{
+      border-radius: 30px;
+      width: 300px;
+      background-color: white;
+     }
+
+
+     .thumbnail-2{
+      border-radius: 30px 30px  0 0 ;
+     }
+
+     .information{
+      display: flex;
+     justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+     }
+
+     .information img{
+      width: 60px;
+     }
+
+    .information img:hover{
+      background-color: #ffc4c4;
+      padding: 10px;
+      border-radius: 70px;
+    }
+
+    .Top-Games{
+     margin-top: 320px;
+     
+    }
+
+    .top-games-header span{
+      color: orange;
+      padding-left: 45%;
+    }
+  
+    .top-games-header h1{
+      margin-top: 0%;
+      padding-left: 40%;
+    }
+
+    .top-games-images {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .card-3{
+      width: 250px;
+      padding: 2%;
+    }
+
+
+    .card-3-action {
+      color: black;
+      background-color: greenyellow;
+      height: 300px;
+      width: 205px;
+      border-radius: 20px 20px 0 0;
+    }
+
+    .card-3-action p {
+      display: flex;
+     justify-content: center;
+     padding-top: 5px;
+    }
+
+    .card-3-image img{
+      width: 205px;
+      height: 300px ;
+      border-radius: 50px 50px 20px 20px ;
+    }
+
+
+    .fOOTER{
+      margin-top:450px;
+      margin-bottom: 0%;
+      background-color: greenyellow;
+      padding: 50px;
+      color: black;
+      display: flex;
+      justify-content: center;
+      border-radius: 80px 80px   0 0  ;
+    }
+
+   /* mobile screen */
+    @media (max-width:576px) {
+      
+    
+      .links {
+        font-size: medium;
+        display: block;
+        flex-direction: column;
+      }
+      
+      .image-and-word  {
+         margin-bottom: 10%;
+         padding-left: 32%;
+      }
+       
+      .header-links a {
+      padding-right: 35px;
+      }
+
+     .landing-page-left-p{
+      width: 320px;
+     }
+ 
+     .landing-page-between{
+      display: block;
+     }
+
+     .landing-page{
+      padding-top: 3%;
+     }
+
+     .landing-page-search button {
+      width: 10%;
+     }
+
+
+     .landing-page-search input {
+       width: 50%;
+       padding-right: 10px;
+     }
+
+     .landing-page-image-red-2{
+      padding-top: 3%;
+     }
+
+     .landing-page-image-red-2 img{
+      width: 130px;
+     }
+
+     .landing-page-search{
+      display: flex;
+      align-items: center;
+      width: 100%;
+     }
+
+     .Trending-container{
+      padding: 6%;
+     }
+
+     .trending-header{
+      padding: 0% 0%;
+     }
+     .trending-header h1 {
+      padding: 0% 0%;
+      width: 150%;
+     }
+
+     .trending-cards {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     .card{
+      margin-top: 10%;
+     margin-left: auto;
+     margin-right: auto;
+     }
+
+     .thumb{
+      width: 5100px;
+     }
+
+     .MOST-PLAYED-SECTION{
+      padding: 8%;
+     }
+
+     .MOST-PLAYED-SECTION h1{
+      padding: 2% 1%;
+     }
+
+     .MOST-PLAYED-SECTION span{
+      font-size: medium;
+     }
+     
+     .MOST-PLAYED-SECTION-images{
+       display: block;
+     }
+
+     .card-2{
+      margin-top: 8%;
+      margin-left: auto;
+     margin-right: auto;
+     }
+
+ 
+     .top-games-header span{
+      padding-left: 35%;
+     }
+
+     .Top-Games{
+      padding-left: 0px ;
+     }
+     .top-games-header h1{
+      padding-left: 15%;
+    }
+
+    .top-games-images{
+     display: block;
+     padding: 15%;
+    }
+
+    .card-3{
+      margin-top: 20%;
+      margin-left: auto;
+     margin-right: auto;
+    }
+
+   .fOOTER{
+    margin-bottom: 0%;
+   }
+    }
+
+
+    /* tablet screen */
+    @media (min-width:577px) and (max-width:991px)   {
+      
+    
+      .links {
+        font-size: large;
+        display: flex;
+      }
+      
+      .image-and-word  {
+         padding-left: 2%;
+      }
+       
+      .header-links a {
+      padding: 0px  7px;
+      }
+
+     .landing-page-left-p{
+      width: 330px;
+     }
+ 
+     .landing-page-between{
+      display: flex;
+     }
+
+     .landing-page{
+      padding-top: 3%;
+     }
+
+     .landing-page-search button {
+      width: 10%;
+     }
+
+
+     .landing-page-search input {
+       width: 55%;
+       padding-right: 10px;
+     }
+
+     .landing-page-image-red-2{
+      padding-top: 3%;
+     }
+
+     .landing-page-image-red-2 img{
+      width: 150px;
+     }
+
+     .landing-page-search{
+      display: flex;
+      align-items: center;
+      width: 100%;
+     }
+
+     .Trending-container{
+      padding: 6%;
+     }
+
+     .trending-header{
+      padding: 0% 0%;
+     }
+     .trending-header h1 {
+      padding: 0% 0%;
+      width: 80%;
+     }
+
+     .trending-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     .card{
+      margin-top: 10%;
+     margin-left: auto;
+     margin-right: auto;
+     }
+
+     .thumb{
+      width: 5100px;
+     }
+
+     .MOST-PLAYED-SECTION{
+      padding: 4%;
+     }
+     
+     .MOST-PLAYED-SECTION h1{
+      padding: 2% 5%;
+     }
+
+     .MOST-PLAYED-SECTION span{
+      font-size: medium;
+      padding: 0% 7%;
+     }
+     
+     .MOST-PLAYED-SECTION-images{
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+     }
+     
+     .MOST-PLAYED-SECTION-images :nth-child(3){
+      grid-column: 1/3;
+     }
+
+     .card-2{
+      margin-top: 8%;
+      margin-left: auto;
+     margin-right: auto;
+     }
+
+ 
+     .top-games-header span{
+      padding-left: 45%;
+     }
+
+     .Top-Games{
+      padding-left: 0px ;
+     }
+     .top-games-header h1{
+      padding-left: 35%;
+    }
+
+    .top-games-images{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     padding: 2%;
+    }
+
+    .top-games-images :nth-child(5){
+      grid-column: 1/3;
+    }
+    .card-3{
+      margin-top: 20%;
+      margin-left: auto;
+     margin-right: auto;
+    }
+
+   .fOOTER{
+    margin-bottom: 0%;
+   }
+
+  }
